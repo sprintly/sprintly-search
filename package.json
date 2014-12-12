@@ -1,0 +1,35 @@
+{
+  "name": "sprintly-search",
+  "version": "1.0.0",
+  "description": "Interface to the Sprintly cross-product search API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "istanbul cover -x 'fixtures/*' -x '**/*_test.js' _mocha -- `find . -name '*_test.js'`"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sprintly/sprintly-search.git"
+  },
+  "keywords": [
+    "search",
+    "sprintly",
+    "api"
+  ],
+  "author": "Justin Abrahms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sprintly/sprintly-search.git/issues"
+  },
+  "homepage": "https://github.com/sprintly/sprintly-search.git",
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "mocha": "^2.0.1",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "q": "^1.1.2",
+    "request-promise": "^0.3.2",
+    "yargs": "^1.3.3"
+  }
+}
