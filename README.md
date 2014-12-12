@@ -5,7 +5,7 @@ This project aims to provide a simple node/in-browser (via
 across multiple products inside [sprintly](https://sprint.ly/).
 
 ## Usage
-```
+```js
 var API = require('sprintly-search');
 
 API.search(API.getOpts('assigned_to:me', {
