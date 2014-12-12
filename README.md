@@ -12,7 +12,7 @@ API.search(API.getOpts('assigned_to:me', {
   user: 'jane@example.org',
   pass: 's3cr3t'
 })).then(function (json) {
-  console.log('Number of items? ', len(JSON.stringify(json)));
+  console.log('Number of items? ', JSON.stringify(json).length);
 }, function (err) {
   console.log('error: ', err.response.body);
 });
