@@ -1,6 +1,6 @@
 {
   "name": "sprintly-search",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Interface to the Sprintly cross-product search API",
   "main": "lib/index.js",
   "scripts": {
@@ -19,6 +19,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sprintly/sprintly-search.git/issues"
+  },
+  "browser": {
+    "request": "browser-request"
   },
   "homepage": "https://github.com/sprintly/sprintly-search.git",
   "devDependencies": {
