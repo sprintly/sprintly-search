@@ -8,7 +8,9 @@ across multiple products inside [sprintly](https://sprint.ly/).
 ```js
 var API = require('sprintly-search');
 
-API.search(API.getOpts('assigned_to:me', {
+// NOTE: 5304 is a user-id. You may need to change this for this
+// example to work.
+API.search(API.getOptions('assigned_to:5304', {
   user: 'jane@example.org',
   pass: 's3cr3t'
 })).then(function (json) {
