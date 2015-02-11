@@ -1,0 +1,13 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "quotes": [2, "single", "avoid-escape"],
+    "strict": 0
+  },
+  "globals": {
+    "assert": false
+  }
+}

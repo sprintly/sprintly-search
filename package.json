@@ -4,7 +4,8 @@
   "description": "Interface to the Sprintly cross-product search API",
   "main": "lib/index.js",
   "scripts": {
-    "test": "istanbul cover -x 'fixtures/*' -x '**/*_test.js' _mocha -- `find . -name '*_test.js'`"
+    "test": "istanbul cover -x 'fixtures/*' -x '**/*_test.js' _mocha -- `find . -name '*_test.js'`",
+    "lint": "eslint lib/"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/sprintly/sprintly-search.git",
   "devDependencies": {
+    "eslint": "^0.14.1",
     "istanbul": "^0.3.5",
     "mocha": "^2.0.1",
     "sinon": "^1.12.2"
