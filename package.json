@@ -1,6 +1,6 @@
 {
   "name": "sprintly-search",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Interface to the Sprintly cross-product search API",
   "main": "lib/index.js",
   "scripts": {
