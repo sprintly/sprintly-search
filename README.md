@@ -4,6 +4,8 @@ This project aims to provide a simple node/in-browser (via
 [browserify](http://browserify.org/)) API client for fetching items
 across multiple products inside [sprintly](https://sprint.ly/).
 
+You can find documentation for the search API [here](https://sprint.ly/blog/search-api/).
+
 ## Usage
 ```js
 var API = require('sprintly-search');
